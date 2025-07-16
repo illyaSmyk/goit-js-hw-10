@@ -1,18 +1,67 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
-/* Common styles */
-@import url('./reset.css');
-@import url('./base.css');
-@import url('./container.css');
-@import url('./animations.css');
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
 
-/* Sections style */
-@import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
-@import url('./footer.css');
+nav ul li a {
+  text-decoration: none;
+  color: #555;
+  padding: 10px 15px;
+  border: 2px solid #555;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.container a {
+  text-decoration: none;
+  color: #555;
+  padding: 10px 20px;
+  border: 2px solid #555;
+  border-radius: 5px;
+}
+
+.container a:hover {
+  background-color: #555;
+  color: #fff;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 20px;
+  color: #555;
+}
+
+.timer {
+  display: flex;
+  gap: 20px;
+  color: #555;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value {
+  font-size: 32px;
+  min-width: 40px;
+  text-align: center;
+}
+
+.label {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #888;
+}
