@@ -65,3 +65,26 @@ body {
   text-transform: uppercase;
   color: #888;
 }
+
+form {
+  background-color: #e0e0e0;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  margin: 40px auto;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+fieldset {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  border: none;
+  padding: 0px;
+  border-radius: 5px;
+}
